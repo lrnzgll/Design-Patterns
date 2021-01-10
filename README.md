@@ -1,11 +1,14 @@
 # Ruby Design Patterns
 
 > Separate out things that change from those that stay the same
+
 > Program to an interface, not an implementation
+
 > Prefer composition over inheritance
+
 > Delegate, delegate, delegate
 
-Design Patterns:
+# Design Patterns:
 1. Template Method
 
 2. Strategy Object
