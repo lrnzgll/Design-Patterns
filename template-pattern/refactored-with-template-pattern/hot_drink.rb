@@ -1,6 +1,6 @@
 class HotDrink
   def initialize
-    @title = "Hot drink vending machine instruction"
+    @title = "Hot drink vending machine instructions"
   end
 
   def output_hot_drink
