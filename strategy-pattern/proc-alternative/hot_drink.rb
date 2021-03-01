@@ -1,4 +1,5 @@
-HOT_TEA = lambda do |context|
+hot_tea = lambda do |context|
+  puts context.title
   puts('Prepare paper cup')
   puts('Add tea powder')
   puts('Pour hot water')

@@ -1,6 +1,6 @@
-require_relative 'base_instruction.rb'
+# context class
 
-class HotDrink < BaseInstruction
+class HotDrink
   attr_reader :title
   attr_accessor :instructions
 
@@ -8,6 +8,8 @@ class HotDrink < BaseInstruction
     @title = "Hot drink vending machine instructions"
     @instructions = instructions
   end
+
+  # ...
 
   def output_hot_drink
     @instructions.output_hot_drink(@title)
